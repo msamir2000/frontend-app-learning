@@ -51,7 +51,6 @@ describe('Upgrade Notification', () => {
     buildAndRender();
     expect(screen.getByRole('heading', { name: 'Pursue a verified certificate' })).toBeInTheDocument();
     expect(screen.getByText(/Earn a.*?of completion to showcase on your resumé/s).textContent).toMatch('Earn a verified certificate of completion to showcase on your resumé');
-    expect(screen.getByText(/Support our.*?at edX/s).textContent).toMatch('Support our non-profit mission at edX');
     expect(screen.getByRole('link', { name: 'Upgrade for $149' })).toBeInTheDocument();
   });
 
@@ -65,7 +64,6 @@ describe('Upgrade Notification', () => {
     });
     expect(screen.getByRole('heading', { name: 'Pursue a verified certificate' })).toBeInTheDocument();
     expect(screen.getByText(/Earn a.*?of completion to showcase on your resumé/s).textContent).toMatch('Earn a verified certificate of completion to showcase on your resumé');
-    expect(screen.getByText(/Support our.*?at edX/s).textContent).toMatch('Support our non-profit mission at edX');
     expect(screen.getByRole('link', { name: 'Upgrade for $149' })).toBeInTheDocument();
   });
 
@@ -75,7 +73,6 @@ describe('Upgrade Notification', () => {
     });
     expect(screen.getByRole('heading', { name: 'Pursue a verified certificate' })).toBeInTheDocument();
     expect(screen.getByText(/Earn a.*?of completion to showcase on your resumé/s).textContent).toMatch('Earn a verified certificate of completion to showcase on your resumé');
-    expect(screen.getByText(/Support our.*?at edX/s).textContent).toMatch('Support our non-profit mission at edX');
     expect(screen.getByRole('link', { name: 'Upgrade for $149' })).toBeInTheDocument();
   });
 
@@ -94,7 +91,6 @@ describe('Upgrade Notification', () => {
     });
     expect(screen.getByRole('heading', { name: 'Pursue a verified certificate' })).toBeInTheDocument();
     expect(screen.getByText(/Earn a.*?of completion to showcase on your resumé/s).textContent).toMatch('Earn a verified certificate of completion to showcase on your resumé');
-    expect(screen.getByText(/Support our.*?at edX/s).textContent).toMatch('Support our non-profit mission at edX');
     expect(screen.getByText(/Upgrade for/).textContent).toMatch('$126.65 ($149)');
     expect(screen.getByText(/Use code.*?at checkout/s).textContent).toMatch('Use code Welcome15 at checkout');
   });
@@ -161,7 +157,6 @@ describe('Upgrade Notification', () => {
     expect(screen.getByText(/Earn a.*?of completion to showcase on your resumé/s).textContent).toMatch('Earn a verified certificate of completion to showcase on your resumé');
     expect(screen.getByText(/Unlock your access/s).textContent).toMatch('Unlock your access to all course activities, including graded assignments');
     expect(screen.getByText(/to course content and materials/s).textContent).toMatch('Full access to course content and materials, even after the course ends');
-    expect(screen.getByText(/Support our.*?at edX/s).textContent).toMatch('Support our non-profit mission at edX');
     expect(screen.getByRole('link', { name: 'Upgrade for $149' })).toBeInTheDocument();
   });
 
@@ -188,8 +183,7 @@ describe('Upgrade Notification', () => {
     expect(screen.getByText('Less than 1 hour left')).toBeInTheDocument();
     expect(screen.getByText(/Earn a.*?of completion to showcase on your resumé/s).textContent).toMatch('Earn a verified certificate of completion to showcase on your resumé');
     expect(screen.getByText(/Unlock your access/s).textContent).toMatch('Unlock your access to all course activities, including graded assignments');
-    expect(screen.getByText(/to course content and materials/s).textContent).toMatch('Full access to course content and materials, even after the course ends');
-    expect(screen.getByText(/Support our.*?at edX/s).textContent).toMatch('Support our non-profit mission at edX');
+    expect(screen.getByText(/to course content and materials/s).textContent).toMatch('Full access to course content and materials, even after the course ends');    
     expect(screen.getByText(/Upgrade for/).textContent).toMatch('$126.65 ($149)');
     expect(screen.getByText(/Use code.*?at checkout/s).textContent).toMatch('Use code Welcome15 at checkout');
   });
@@ -218,7 +212,6 @@ describe('Upgrade Notification', () => {
     expect(screen.getByText(/Earn a.*?of completion to showcase on your resumé/s).textContent).toMatch('Earn a verified certificate of completion to showcase on your resumé');
     expect(screen.getByText(/Unlock your access/s).textContent).toMatch('Unlock your access to all course activities, including graded assignments');
     expect(screen.getByText(/to course content and materials/s).textContent).toMatch('Full access to course content and materials, even after the course ends');
-    expect(screen.getByText(/Support our.*?at edX/s).textContent).toMatch('Support our non-profit mission at edX');
     expect(screen.getByText(/Upgrade for/).textContent).toMatch('$126.65 ($149)');
     expect(screen.getByText(/Use code.*?at checkout/s).textContent).toMatch('Use code Welcome15 at checkout');
   });
@@ -247,7 +240,6 @@ describe('Upgrade Notification', () => {
     expect(screen.getByText(/Earn a.*?of completion to showcase on your resumé/s).textContent).toMatch('Earn a verified certificate of completion to showcase on your resumé');
     expect(screen.getByText(/Unlock your access/s).textContent).toMatch('Unlock your access to all course activities, including graded assignments');
     expect(screen.getByText(/to course content and materials/s).textContent).toMatch('Full access to course content and materials, even after the course ends');
-    expect(screen.getByText(/Support our.*?at edX/s).textContent).toMatch('Support our non-profit mission at edX');
     expect(screen.getByText(/Upgrade for/).textContent).toMatch('$126.65 ($149)');
     expect(screen.getByText(/Use code.*?at checkout/s).textContent).toMatch('Use code Welcome15 at checkout');
   });
