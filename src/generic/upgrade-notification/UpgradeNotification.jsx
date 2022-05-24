@@ -30,19 +30,7 @@ function UpsellNoFBECardContent() {
           defaultMessage="Earn a {verifiedCertLink} of completion to showcase on your resumé"
           values={{ verifiedCertLink }}
         />
-      </li>
-      <li>
-        <span className="fa-li upgrade-notification-li"><FontAwesomeIcon icon={faCheck} /></span>
-        <FormattedMessage
-          id="learning.generic.upgradeNotification.noFBE.nonProfitMission"
-          defaultMessage="Support our {nonProfitMission} at edX"
-          values={{
-            nonProfitMission: (
-              <span className="font-weight-bold">non-profit mission</span>
-            ),
-          }}
-        />
-      </li>
+          </li>
     </ul>
   );
 }
