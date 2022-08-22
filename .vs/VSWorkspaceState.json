@@ -2,9 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\courseware",
+    "\\src\\courseware\\course",
+    "\\src\\courseware\\course\\course-exit\\data",
+    "\\src\\courseware\\course\\sequence",
+    "\\src\\courseware\\course\\sequence\\sequence-navigation",
+    "\\src\\courseware\\data",
     "\\src\\generic",
-    "\\src\\generic\\assets"
+    "\\src\\generic\\assets",
+    "\\src\\i18n"
   ],
-  "SelectedNode": "\\src\\generic\\assets\\edX_certificate.png",
+  "SelectedNode": "\\src\\generic\\assets\\edX_certificate.png.old",
   "PreviewInSolutionExplorer": false
 }
