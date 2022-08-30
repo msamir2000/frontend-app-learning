@@ -153,7 +153,7 @@
   "progress.creditInformation.upcoming": "قريبًا",
   "progress.creditInformation.verificationFailed": "فشل التحقق",
   "progress.creditInformation.verificationSubmitted": "تم تقديم التحقق",
-  "progress.ungradedAlert": "للتقدمك في المحتوى الذي لم يتم تقديره من المساق ، قم بعرض {outlineLink}.",
+  "progress.ungradedAlert": "للتقدم في المحتوى الذي لم يتم تقديره من المساق ، قم بعرض {outlineLink}.",
   "progress.footnotes.droppableAssignments": "أدنى {numDroppable، plural, one {# {assignmentType} تجاهله} other {# {assignmentType} تجاهلهم} من النتائج.",
   "progress.assignmentType": "نوع الواجب",
   "progress.footnotes.backToContent": "العودة إلى المحتوى",
