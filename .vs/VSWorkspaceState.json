@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\course-home",
-    "\\src\\courseware"
+    "\\src\\courseware",
+    "\\src\\courseware\\data"
   ],
+  "SelectedNode": "\\src\\courseware\\CoursewareContainer.jsx",
   "PreviewInSolutionExplorer": false
 }
