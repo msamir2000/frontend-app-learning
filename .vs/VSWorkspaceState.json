@@ -2,13 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\alerts\\sequence-alerts",
-    "\\src\\course-home\\outline-tab\\alerts",
-    "\\src\\course-home\\outline-tab\\alerts\\certificate-status-alert",
-    "\\src\\course-home\\outline-tab\\alerts\\course-end-alert",
-    "\\src\\i18n",
-    "\\src\\i18n\\messages"
+    "\\src\\course-home",
+    "\\src\\courseware"
   ],
-  "SelectedNode": "\\src\\i18n\\messages\\es_419.json",
   "PreviewInSolutionExplorer": false
 }
