@@ -40,9 +40,12 @@ export default () => {
         />
         <PageRoute
           path={`${path}/dashboard`}
-          render={({ location }) => {
-            global.location.assign(`${getConfig().LMS_BASE_URL}/dashboard${location.search}`);
-          }}
+         // render={({ location }) => {
+         //   global.location.assign(`${getConfig().LMS_BASE_URL}/dashboard${location.search}`);
+         // }}
+                  render={({ location }) => {
+                      global.location.assign(`https://injaz.edu.jo/`);
+                  }}
         />
       </Switch>
     </div>
