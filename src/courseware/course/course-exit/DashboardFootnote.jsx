@@ -24,7 +24,8 @@ function DashboardFootnote({ intl, variant }) {
   const dashboardLink = (
     <Hyperlink
       style={{ textDecoration: 'underline' }}
-      destination={`${getConfig().LMS_BASE_URL}/dashboard`}
+      //destination={`${getConfig().LMS_BASE_URL}/dashboard`}
+          destination={`https://injaz.edu.jo/`}
       className="text-reset"
       onClick={() => logClick(org, courseId, administrator, 'dashboard_footnote', { variant })}
     >
