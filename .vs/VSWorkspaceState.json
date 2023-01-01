@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\courseware",
-    "\\src\\courseware\\data"
+    "\\src"
   ],
-  "SelectedNode": "\\src\\courseware\\CoursewareContainer.jsx",
+  "SelectedNode": "\\src\\i18n",
   "PreviewInSolutionExplorer": false
 }
